@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@300&display=swap");
 
 :root {
-  --firstColor: rgb(119, 105, 105);
+  --firstColor: rgb(80, 137, 177);
   --secondColor: rgba(68, 62, 100, 0.349);
   --hoverColor: rgba(99, 69, 69, 0.349);
   --primary-font: "Roboto", sans-serif;
@@ -64,6 +64,7 @@ nav a {
   text-decoration: none;
   padding: 0.7rem;
   color: black;
+  font-size: 1.3rem;
 }
 nav a:hover {
   background-color: var(--hoverColor);
