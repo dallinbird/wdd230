@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  border: 2px solid var(--thirdColor);
+  border: 3.5px solid var(--secondColor);
   /* border-radius: 50%; */
 }
 
@@ -35,13 +35,16 @@ h3 {
   background-color: var(--secondColor);
   padding-top: 10px;
   padding-bottom: 15px;
-  margin-top: 20px;
 }
 
 p {
   background-color: var(--firstColor);
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+section {
+  margin-top: 20px;
 }
 
 header h1 {
@@ -56,9 +59,13 @@ header p {
   padding-bottom: 15px;
 }
 
+section {
+  border: 3.5px solid var(--secondColor);
+}
+
 #mission {
   margin-top: 20px;
-  border: 2px solid var(--thirdColor);
+  border: 3.5px solid var(--secondColor);
 }
 
 #mission h2 {
@@ -76,4 +83,37 @@ header p {
 li {
   background-color: var(--firstColor);
   list-style-type: none;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#scenarios {
+  margin-bottom: 100px;
+}
+
+footer {
+  max-width: 414px;
+  background-color: var(--secondColor);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+footer a {
+  font-family: var(--primaryFont);
+  font-size: 1.2rem;
+  background-color: var(--secondColor);
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: var(--firstColor);
 }
