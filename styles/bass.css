@@ -2,7 +2,7 @@
 
 :root {
   --firstColor: rgb(80, 137, 177);
-  --secondColor: rgba(68, 62, 100, 0.349);
+  --secondColor: rgb(98, 165, 214);
   --hoverColor: rgba(99, 69, 69, 0.349);
   --primary-font: "Roboto", sans-serif;
   --secondary-font: sans-serif;
@@ -31,10 +31,18 @@ body {
 }
 
 header {
+  background-color: var(--secondColor);
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: var(--primary-font);
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 60%;
+  box-shadow: 20px 20px rgb(62, 106, 138);
 }
 
 h1 {
@@ -97,6 +105,7 @@ h3 {
   grid-column: 2/5;
   border: 2px solid darkslategray;
   margin-bottom: 25px;
+  font-size: 1.3rem;
 }
 
 .card ul {
