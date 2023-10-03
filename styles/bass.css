@@ -99,6 +99,7 @@ h3 {
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: var(--firstColor);
+  font-weight: 900;
 }
 
 .card {
@@ -126,7 +127,7 @@ h3 {
 }
 
 footer {
-  background-color: var(--firstColor);
+  background-color: var(--secondColor);
   padding-top: 10px;
   padding-bottom: 20px;
   position: fixed;
@@ -136,4 +137,5 @@ footer {
 
 footer p {
   padding-bottom: 5px;
+  font-weight: bold;
 }
